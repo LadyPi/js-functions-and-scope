@@ -4,7 +4,39 @@
   number is the length of the corresponding string.
 */
 
+function lengths(sentence) {
+  // have a placeholder array for word lengths
+  var letterCount = [];
+  // iterate through the sentence
+  for(var i = 0; i < sentence.length; i++) {
+  // determine length of each words
+  var wordLength = sentence[i].length;
+  // console.log("length of word is ", wordLength) TEST;
+  // then push that length into the word lengths array
+  letterCount.push(wordLength);
+}
+  // return an array of the word lengths
+}
+
+lengths(["hellooooo", "there", "person!"]);
+
+var thingsToSay = ["hello", "there", "person!"];
+
+
+// FOREACH is BEST PRACTICE
+arrayOfStrings = ["sun", "moon", "stars"];
+
 // your code here
+function lengths(arrayOfStrings) {
+  var len = arrayOfStrings.length;
+  // forEach(arrayOfStrings(thislengths) {
+  // // arrayOfStrings.length
+  // return  lengths;
+  console.log(len);
+}
+
+// CHECK OUT MAP
+
 
 /*
   2. Write a Javascript function called `transmogrifier`
